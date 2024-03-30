@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourest - Explore o Mundo</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#">
+                <h1 class="logo">Tourest</h1>
+            </a>
+
+            <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+                <ion-icon name="menu-outline" class="open"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </button>
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Sobre Nós</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Passeios</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Destinos</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Contate-nos</a>
+                    </li>
+
+                </ul>
+
+                <a href="#" class="btn btn-secondary">Reserve Agora</a>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="section hero"
+                style="background-image: url('./assets/images/hero-bg-bottom.png') url('img/hero-bg-top.png')">
+                <div class="container">
+
+                    <img src="img/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
+
+                    <img src="img/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
+
+                    <img src="img/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">
+
+                    <div class="hero-content">
+
+                        <p class="section-subtitle">Explore Suas Viagens</p>
+
+                        <h2 class="hero-title">Agência de Viagens Confiável</h2>
+
+                        <p class="hero-text">
+                            "Eu viajo não para ir a qualquer lugar, mas para ir. Eu viajo pelo próprio ato de viajar; a grande aventura é movimentar-se."
+                        </p>
+
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary">Contate-nos</a>
+
+                            <a href="#" class="btn btn-outline">Ler Mais</a>
+                        </div>
+
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="img/hero-banner.png" width="686" height="812" loading="lazy"
+                            alt="hero banner" class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #DESTINATION
+      -->
+
+            <section class="section destination">
+                <div class="container">
+
+                    <p class="section-subtitle">Destinos</p>
+
+                    <h2 class="h2 section-title">Escolha o seu Lugar</h2>
+
+                    <ul class="destination-list">
+
+                        <li class="w-50">
+                            <a href="#" class="destination-card">
+
+                                <figure class="card-banner">
+                                    <img src="img/destination-1.jpg" width="1140" height="1100"
+                                        loading="lazy" alt="Malé, Maldives" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Malé</p>
+
+                                    <h3 class="h3 card-title">Maldivas</h3>
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="w-50">
+                            <a href="#" class="destination-card">
+
+                                <figure class="card-banner">
+                                    <img src="img/destination-2.jpg" width="1140" height="1100"
+                                        loading="lazy" alt="Bangkok, Thailand" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Bangkok</p>
+
+                                    <h3 class="h3 card-title">Tailândia</h3>
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="destination-card">
+
+                                <figure class="card-banner">
+                                    <img src="img/destination-3.jpg" width="1110" height="480"
+                                        loading="lazy" alt="Kuala Lumpur, Malaysia" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Kuala Lumpur</p>
+
+                                    <h3 class="h3 card-title">Malásia</h3>
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="destination-card">
+
+                                <figure class="card-banner">
+                                    <img src="img/destination-4.jpg" width="1110" height="480"
+                                        loading="lazy" alt="Kathmandu, Nepal" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Kathmandu</p>
+
+                                    <h3 class="h3 card-title">Nepal</h3>
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="destination-card">
+
+                                <figure class="card-banner">
+                                    <img src="img/destination-5.jpg" width="1110" height="480"
+                                        loading="lazy" alt="Jakarta, Indonesia" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Jakarta</p>
+
+                                    <h3 class="h3 card-title">Indonésia</h3>
+                                </div>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #POPULAR
+      -->
+
+            <section class="section popular">
+                <div class="container">
+
+                    <p class="section-subtitle">Tours em Destaque</p>
+
+                    <h2 class="h2 section-title">Passeios Mais Populares</h2>
+
+                    <ul class="popular-list">
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-banner">
+                                    <a href="#">
+                                        <img src="img/popular-1.jpg" width="740" height="518" loading="lazy"
+                                            alt="Kuala Lumpur, Malaysia" class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="P12D">12 Dias</time>
+                                    </span>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+                                        <div class="card-price">Por R$50,00</div>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+
+                                            <data value="2">(2)</data>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">"Um bom viajante não tem planos fixos e não está determinado a chegar."</a>
+                                    </h3>
+
+                                    <address class="card-location">Kuala Lumpur, Malásia</address>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-banner">
+                                    <a href="#">
+                                        <img src="img/popular-2.jpg" width="740" height="518" loading="lazy"
+                                            alt="Kuala Lumpur, Malaysia" class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="P12D">12 Dias</time>
+                                    </span>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+                                        <div class="card-price">Por R$50,00</div>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+
+                                            <data value="2">(2)</data>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">"Um bom viajante não tem planos fixos e não está determinado a chegar."</a>
+                                    </h3>
+
+                                    <address class="card-location">Kuala Lumpur, Malásia</address>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-banner">
+                                    <a href="#">
+                                        <img src="img/popular-3.jpg" width="740" height="518" loading="lazy"
+                                            alt="Kuala Lumpur, Malaysia" class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="P12D">12 Dias</time>
+                                    </span>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+                                        <div class="card-price">Por R$50,00</div>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+
+                                            <data value="2">(2)</data>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">"Um bom viajante não tem planos fixos e não está determinado a chegar."</a>
+                                    </h3>
+
+                                    <address class="card-location">Kuala Lumpur, Malásia</address>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #ABOUT
+      -->
+
+            <section class="section about">
+                <div class="container">
+
+                    <div class="about-content">
+
+                        <p class="section-subtitle">Sobre Nós</p>
+
+                        <h2 class="h2 section-title">Explore todos os passeios pelo mundo conosco.</h2>
+
+                        <p class="about-text">
+                            Nossa agência oferece uma ampla variedade de passeios pelo mundo todo, proporcionando experiências inesquecíveis para os viajantes. Desde destinos exóticos até locais icônicos, nossos passeios são cuidadosamente planejados para atender aos interesses e preferências dos nossos clientes. Com uma equipe experiente e dedicada, garantimos que cada viagem seja memorável, repleta de aventuras emocionantes e momentos únicos. Explore o mundo conosco e descubra as maravilhas que o planeta tem a oferecer.
+                        </p>
+
+                        <ul class="about-list">
+
+                            <li class="about-item">
+
+                                <div class="about-item-icon">
+                                    <ion-icon name="compass"></ion-icon>
+                                </div>
+
+                                <div class="about-item-content">
+                                    <h3 class="h3 about-item-title">Guia Turístico</h3>
+
+                                    <p class="about-item-text">
+                                        Um guia turístico é um profissional que fornece informações e orientações aos turistas durante suas viagens.
+                                    </p>
+                                </div>
+
+                            </li>
+
+                            <li class="about-item">
+
+                                <div class="about-item-icon">
+                                    <ion-icon name="briefcase"></ion-icon>
+                                </div>
+
+                                <div class="about-item-content">
+                                    <h3 class="h3 about-item-title">Preço acessível</h3>
+
+                                    <p class="about-item-text">
+                                        Desfrute de nossos serviços de qualidade a um preço acessível, tornando sua viagem mais agradável e econômica.
+                                    </p>
+                                </div>
+
+                            </li>
+
+                            <li class="about-item">
+
+                                <div class="about-item-icon">
+                                    <ion-icon name="umbrella"></ion-icon>
+                                </div>
+
+                                <div class="about-item-content">
+                                    <h3 class="h3 about-item-title">Tours confiáveis </h3>
+
+                                    <p class="about-item-text">
+                                        Tours confiáveis que garantem uma experiência memorável, sem preocupações.
+                                    </p>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                        <a href="#" class="btn btn-primary">Reserve agora</a>
+
+                    </div>
+
+                    <figure class="about-banner">
+                        <img src="img/about-banner.png" width="756" height="842" loading="lazy" alt=""
+                            class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #BLOG
+      -->
+
+            <section class="section blog">
+                <div class="container">
+
+                    <p class="section-subtitle">Post Do Blog</p>
+
+                    <h2 class="h2 section-title">Últimas Notícias e Artigos</h2>
+
+                    <ul class="blog-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner">
+
+                                    <a href="#">
+                                        <img src="img/popular-1.jpg" width="740" height="518" loading="lazy"
+                                            alt="A good traveler has no fixed plans and is not intent on arriving."
+                                            class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="12-04">04 de Dezembro</time>
+                                    </span>
+
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+
+                                        <div class="author-wrapper">
+                                            <figure class="author-avatar">
+                                                <img src="img/author-avatar.png" width="30" height="30"
+                                                    alt="Jony bristow">
+                                            </figure>
+
+                                            <div>
+                                                <a href="#" class="author-name">Jhony Lima</a>
+
+                                                <p class="author-title">Administrador</p>
+                                            </div>
+                                        </div>
+
+                                        <time class="publish-time" datetime="10:30">10h30</time>
+
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            Um bom viajante não tem planos fixos e não está determinado a chegar.
+                                        </a>
+                                    </h3>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Leia Mais</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner">
+
+                                    <a href="#">
+                                        <img src="img/blog-2.jpg" width="740" height="518" loading="lazy"
+                                            alt="A good traveler has no fixed plans and is not intent on arriving."
+                                            class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="12-04">04 de Dezembro</time>
+                                    </span>
+
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+
+                                        <div class="author-wrapper">
+                                            <figure class="author-avatar">
+                                                <img src="img/author-avatar.png" width="30" height="30"
+                                                    alt="Jony bristow">
+                                            </figure>
+
+                                            <div>
+                                                <a href="#" class="author-name">Jhony Lima</a>
+
+                                                <p class="author-title">Administrador</p>
+                                            </div>
+                                        </div>
+
+                                        <time class="publish-time" datetime="10:30">10h30</time>
+
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            Um bom viajante não tem planos fixos e não está determinado a chegar.
+                                        </a>
+                                    </h3>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Leia Mais</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner">
+
+                                    <a href="#">
+                                        <img src="img/blog-3.jpg" width="740" height="518" loading="lazy"
+                                            alt="A good traveler has no fixed plans and is not intent on arriving."
+                                            class="img-cover">
+                                    </a>
+
+                                    <span class="card-badge">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="12-04">04 de Dezembro</time>
+                                    </span>
+
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-wrapper">
+
+                                        <div class="author-wrapper">
+                                            <figure class="author-avatar">
+                                                <img src="img/author-avatar.png" width="30" height="30"
+                                                    alt="Jony bristow">
+                                            </figure>
+
+                                            <div>
+                                                <a href="#" class="author-name">Jhony Lima</a>
+
+                                                <p class="author-title">Administrador</p>
+                                            </div>
+                                        </div>
+
+                                        <time class="publish-time" datetime="10:30">10h30</time>
+
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            Um bom viajante não tem planos fixos e não está determinado a chegar.
+                                        </a>
+                                    </h3>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Leia Mais</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" style="background-image: url('img/footer-bg.png')">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Destino Principal</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Indonésia, Jacarta</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Maldivas, Malé</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Austrália, Camberra</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Tailândia, Bangkok</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Marrocos, Rabat</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Categorias</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Viagem</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Estilo de Vida</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Moda</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Educação</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Comida e Bebida</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Links Rápidos</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contato</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Passeios</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Reserva</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Termos e Condições</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Receba nossa newsletter</p>
+
+                    <p class="newsletter-text">
+                        Para as últimas ofertas e dicas, não procure mais do que sua caixa de entrada.
+                    </p>
+
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email" required placeholder="Endereço de e-mail" class="newsletter-input">
+
+                        <button type="submit" class="btn btn-primary">Inscreva-se</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <a href="#" class="logo">Tourest</a>
+
+                <p class="copyright">
+                    &copy; 2024 <a href="#" class="copyright-link">eulineaguiar</a>. Todos os Direitos Reservados
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-google"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
